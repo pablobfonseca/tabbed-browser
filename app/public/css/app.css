@@ -1,1 +1,24 @@
-body {}
+html,
+.tab-content,
+.tab-pane,
+body > div {
+  height: 100%;
+}
+
+iframe {
+  background: white;
+}
+
+.controls > li {
+  color: red;
+}
+
+.controls > i:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.close-tab:hover {
+  color: red;
+  cursor: pointer;
+}

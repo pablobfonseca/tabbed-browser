@@ -1,9 +1,13 @@
-angular.module('app', [])
-    .controller('main', function($scope) {
-        $scope.people = [];
-        $scope.person = {};
-        $scope.add = function() {
-            $scope.people.push($scope.person);
-            $scope.person = {};
-        };
-    });
+(function() {
+  'use strict';
+
+  angular.module('browser', ['ui.bootstrap', 'ngSanitize']);
+
+  // Init module
+  angular.element(document.getElementsByTagName('html')[0]);
+  // Add module in html
+  angular.element().ready(function () {
+    // Bootstrap the app manually
+    angular.bootstrap(document, ['browser']);
+  });
+})();
