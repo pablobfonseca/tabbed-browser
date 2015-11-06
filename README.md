@@ -1,4 +1,4 @@
 TabbedBrowser
 ====================================
 
-Simple tabbed browser with node-webkit and AngulaJS.
+Simple tabbed browser with node-webkit and AngularJS.
