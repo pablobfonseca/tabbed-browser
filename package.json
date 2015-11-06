@@ -22,12 +22,12 @@
         "grunt-shell": "^1.1.2"
     },
     "window": {
-        "title": "Movie Base",
+        "title": "Tabbed Browser",
         "toolbar": true,
         "frame": true,
         "position": "center",
         "fullscreen": false,
-        "resizable": false,
+        "resizable": true,
         "width": 1000,
         "height": 600,
         "min_width": 600,

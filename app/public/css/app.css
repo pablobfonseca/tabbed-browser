@@ -1,3 +1,15 @@
+.nav,
+.pagination,
+.carousel,
+.panel-title a {
+  cursor: pointer;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
 html,
 .tab-content,
 .tab-pane,
@@ -9,7 +21,17 @@ iframe {
   background: white;
 }
 
-.controls > li {
+.controls {
+  position: fixed;
+  top: 10px;
+  right: 8px;
+}
+
+.controls > i {
+  padding: 0 3px;
+}
+
+.controls > i:last-child {
   color: red;
 }
 

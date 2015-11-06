@@ -1,6 +1,6 @@
 {
   "name": "TabbedBrowser",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {
     "bootstrap": "3.3.5",
     "angular": "1.4.6",
